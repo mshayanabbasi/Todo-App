@@ -76,4 +76,4 @@ def delete_todo(todo_id):
         db.session.commit()
     return jsonify({'message':'Deleted Sucessfully'})
 
-app.run(debug=True ,port=9090)
+app.run(debug=True)
